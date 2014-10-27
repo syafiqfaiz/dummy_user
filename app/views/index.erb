@@ -1,6 +1,13 @@
-<div class="container">
-  <h1>Welcome to Sinatra!</h1>
-  <p>Please Log In to continue, or <a href="/sign_up">sign up</a>. </p>
+<div class="container" align='center' >
 
+    <h1>Welcome to Sinatra Secret Club!</h1>
+    <p>Please Log In to continue, or <a href="/sign_up">sign up</a>. </p>
 
+  <div align='left'>
+    <form action='/sign_in_user' method='post'>
+      Email   : <input type="text" name="email"><br>
+      Password: <input type="password" name="password"><br>
+      <input type='submit' value='Log me in'
+    </form>
+  </div>
 </div>
