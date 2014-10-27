@@ -18,6 +18,7 @@ end
 
 post '/sign_up_user' do
   User.create(name: params[:name], email: params[:email], password: params[:password]).valid?
+
   redirect '/sign_up_user/succes'
 end
 
